@@ -5,23 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paula Art Nail's</title>
     <link rel="icon" href="bow.png">
+    <link rel="stylesheet" href="formulario.css">
 </head>
-<body  bgcolor="#F7D4EC">
+<nav class="eloahecarol"><body>
     <a href="inicio.html">Home</a>|
     <a href="index.html">Tabela de preço</a>|
-   <div style="background:lightpink; padding: 3px;" > <h1 align="center">Faça seu Agendamento!</h1></div>
-    <hr>
-    <h2>Agendamento</h2>
+   <div style="background:rgb(255, 151, 184); padding: 3px;" > <h1 align="center">Faça seu Agendamento!</h1></div>
+   <br>
+
     <form>
-        <fieldset> <legend> Dados pessoais: </legend>
-        <label for="nome">Nome:</label><br>
-        <input type="text" id="nome" name="nome" required minlength="5" maxlength="40" 
-        placeholder="Digite seu nome completo" size="30"><br><br>
+        <div class="rectangle">
+            <span class="dados"><br>
+        <label for="nome"> Nome:</label><br>
+        <input type="text" id="nome" name="nome" required minlength="5" maxlength="40" placeholder="Digite seu nome completo" ><br><br>
         <label for="telefone">Telefone:</label><br>
         <input type="tel" id="telefone" name="telefone" required minlength="9" 
-        placeholder="Digite seu número de telefone" size="30"><br><br>
-        </fieldset><br>
-        <fieldset> <legend></legend>
+        placeholder="Digite seu número de telefone" size="30"><br><br></span>
+        </div> <br>
+      
+         <div class="rectangle"> <br>
         <label for="data">Data:</label><br>
         <input type="date" id="data" name="data" required><br><br>
         <label for="hora">Hora:</label><br>
@@ -37,14 +39,15 @@
             <option value="Banho" >Banho de Gel </option>
             <option value="Manutencao" > Manutenção   </option>
             <option value="Plastica" >Plástica dos pés  </option>
-            <option value="EsmaltacaoP" >Esmaltção em Gel nos pés  </option>
-            <option value="Esmaltcao" >Esmaltção em Gel a parte </option>
+            <option value="EsmaltacaoP" >Esmaltação em Gel nos pés  </option>
+            <option value="Esmaltacao" >Esmaltação em Gel a parte </option>
             <option value="Reconstrucao" >Reconstrução Podal  </option>
-        </select>
-        </fieldset>
+        </select><br><br>
+        </div>
         <br><br>
-        <button type="submit">Agendar</button>
+        <input type="submit" value="Enviar" class="botao"></input>
     </form>
 </section>
 </body>
+</nav>
 </html>
