@@ -1,0 +1,64 @@
+h1{
+   font-family:'Segoe Script', cursive;
+    color: #660042;
+}
+body{
+   background-color: #ffd3e2;
+}
+a{
+  color: rgb(125, 0, 69);
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:hover{
+    color: #d6a2b5;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+tr{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    align-content: center;
+}
+tr img {
+    border: 5px solid #d2608a ;
+    width: 250px;
+    height: 250px;
+    margin: 50px 50px;
+}
+.caroleeu{
+    padding: 0px 50px;
+
+}
+nav a:hover{
+    color: #c97694;
+}
+button{
+    max-width: 200px;
+    box-shadow:0px 3px 3px 3px rgba(0, 0, 0, 0.1);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+legend{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #660042;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #660042;
+}
+details{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+td{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
