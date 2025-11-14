@@ -1,9 +1,11 @@
 h1{
    font-family:'Segoe Script', cursive;
-   color: #660025;
+    color: #660042;
+    font-size: 50px;
 }
 body{
    background-color: #ffd3e2;
+   height: 300vh;
 }
 a{
   color: rgb(231, 89, 111);
@@ -68,4 +70,73 @@ label{
     cursor: pointer;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
+}
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color:  rgb(255, 151, 184);
+  overflow: hidden;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+ 
+}
+.menu li {
+  float: left;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background-color: #dc008f;
+}
+body{
+  margin: 0;
+}
+/* Responsividade para telas menores */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  .menu li {
+    float: none;
+    text-align: center;
+  }
+
+  img {
+    width: 90%;
+    margin: 10px auto;
+  }
+  .menu ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    tr {
+      flex-direction: column;
+    }
+}
+
+@media print {
+  body {
+    background: white;
+    color: black;
+  }
+
+  nav, button, .voltar-topo {
+    display: none;
+  }
+
+  h1, h2 {
+    color: black;
+  }
 }
